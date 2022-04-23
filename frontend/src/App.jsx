@@ -1,6 +1,6 @@
 import Homepage from "@components/Homepage";
+import { Route, Routes } from "react-router-dom";
 import Globalstyle from "./style";
-import { Route, Routes, Link } from "react-router-dom";
 
 function App() {
   return (
