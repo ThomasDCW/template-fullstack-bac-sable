@@ -1,5 +1,5 @@
-import Globalstyle from "./style";
 import Homepage from "@components/Homepage";
+import Globalstyle from "./style";
 
 function App() {
   return (
