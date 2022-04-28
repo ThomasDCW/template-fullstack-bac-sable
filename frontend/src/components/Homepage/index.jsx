@@ -1,7 +1,9 @@
-import Homebutton from "./Homebutton";
 import SHompepage from "./style";
-import Navbar from "./Navbar";
 
 export default function Homepage() {
-  return <SHompepage></SHompepage>;
+  return (
+    <SHompepage>
+      <h1>Template fullstack REACT</h1>
+    </SHompepage>
+  );
 }
