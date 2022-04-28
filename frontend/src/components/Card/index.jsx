@@ -1,15 +1,15 @@
 import SCard from "./style";
 
-export default function Card() {
+export default function Card(props) {
   return (
-    <SCard>
+    <SCard bg={props.bg}>
       <div className="cardcontainer">
-        <h2>54</h2>
-        <h1>SPIDER-MAN</h1>
+        <h2>{props.id}</h2>
+        <h1>{props.name}</h1>
         <ul className="statscontainer">
-          <li>Agility</li>
-          <li>Strenght</li>
-          <li>Health</li>
+          <li>Speed : {props.speed}</li>
+          <li>Strenght : {props.str}</li>
+          <li>Intel : {props.intel}</li>
         </ul>
       </div>
     </SCard>

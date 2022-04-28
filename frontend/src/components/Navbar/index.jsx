@@ -18,7 +18,7 @@ export default function Navbar() {
       <Link to="/card">
         <li>
           <button type="button" className="button">
-            Card
+            Card-Gallery
           </button>
         </li>
       </Link>

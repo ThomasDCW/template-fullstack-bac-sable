@@ -3,7 +3,7 @@ import { Route, Routes } from "react-router-dom";
 import Homepage from "@components/Homepage";
 import Navbar from "@components/Navbar";
 import Carousel from "@components/Carousel";
-import Card from "@components/Card";
+import Gallery from "@components/Gallery";
 import Globalstyle from "./style";
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Homepage />} />
           <Route path="/carousel" element={<Carousel />} />
-          <Route path="/card" element={<Card />} />
+          <Route path="/card" element={<Gallery />} />
         </Routes>
       </Globalstyle>
     </div>

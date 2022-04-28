@@ -2,7 +2,7 @@ import styled from "styled-components";
 import img from "../../assets/imgcard/spider-man.jpg";
 
 export default styled.div`
-  min-height: 80vh;
+  margin: 2vh 2vw ;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -11,13 +11,15 @@ export default styled.div`
     flex-direction: column ;
     justify-content: flex-end ;
     justify-content: space-between ;
-    background-image: url(${img});
+    background: url(${(props) => props.bg}), url('/imgages.md');
+    background-position: center ;
     width: 20rem;
     height: 30rem;
     box-sizing: border-box;
     border: 15px solid white;
     border-radius: 20px;
     h1 {
+      text-align: center ;
       padding-top: 5em ;
       text-shadow:#FFFEC8 0 -1px 0,
       #ff3a00 1px 1px 0,
@@ -48,24 +50,23 @@ export default styled.div`
     }
   }
   .statscontainer {
-    display: flex ;
     padding-bottom:0.5em ;
     justify-content: space-evenly ;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
         Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     li:first-child{
-      text-shadow:0 0 3px #65fe3f;
-      color:#65fe3f;
+      text-shadow:0 0 2px #1c8b00;
+      color:#1c8b00;
       font-size: 24px;
     }
     li:nth-child(2){
-      text-shadow:0 0 3px #FE0000;
-      color:#FE0000;
+      text-shadow:0 0 2px #3700fe;
+      color:#3700fe;
       font-size: 24px;
     }
     li:nth-child(3){
-      text-shadow:0 0 3px #D000FE;
-      color:#D000FE;
+      text-shadow:0 0 2px #fe0000;
+      color:#fe0000;
       font-size: 24px;
     }
   
