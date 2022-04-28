@@ -4,8 +4,8 @@ import SNavbar from "./style";
 export default function Navbar() {
   return (
     <SNavbar>
-      <Link to="/articles/1">
-        <li>1</li>
+      <Link to="/carousel">
+        <li>Carousel</li>
       </Link>
       <Link to="/articles/2">
         <li>2</li>
