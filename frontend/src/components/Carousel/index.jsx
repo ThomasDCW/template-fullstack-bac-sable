@@ -19,6 +19,7 @@ export default function Carousel() {
     autoplay: true,
     autoplaySpeed: 1500,
   };
+
   return (
     <SCarousel>
       <Slider {...settings}>

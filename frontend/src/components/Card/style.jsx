@@ -11,8 +11,9 @@ export default styled.div`
     flex-direction: column ;
     justify-content: flex-end ;
     justify-content: space-between ;
-    background: url(${(props) => props.bg}), url('/imgages.md');
+    background: url(${(props) => props.bg}), url('/imgages.sm');
     background-position: center ;
+    background-size: cover;
     width: 20rem;
     height: 30rem;
     box-sizing: border-box;
