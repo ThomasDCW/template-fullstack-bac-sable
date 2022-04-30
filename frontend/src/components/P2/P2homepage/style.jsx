@@ -12,26 +12,31 @@ export default styled.div`
     background-image: url(${marvelimg});
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
   }
   .starwars {
     background-image: url(${swimg});
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
   }
   .manga {
     background-image: url(${mangaimg});
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
   }
   .dccomics {
     background-image: url(${dcimg});
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
   }
   .others {
     background-image: url(${othersimg});
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
   }
   ul {
     height: 70vh;
