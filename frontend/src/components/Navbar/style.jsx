@@ -1,14 +1,12 @@
 import styled from "styled-components";
 
 export default styled.ul`
+  padding-top: 2vh;
+  padding-bottom: 2vh;
   margin: 0;
-  padding: 0;
   display: flex;
   justify-content: space-evenly;
   list-style: none;
-  background-blend-mode: multiply;
-  background-blend-mode: multiply;
-  background-blend-mode: multiply, multiply;
   font-size: 32px;
   a {
     text-decoration: none;
