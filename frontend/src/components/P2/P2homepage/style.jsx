@@ -7,7 +7,6 @@ import othersimg from "../../../assets/P2homepage/othersP2.jpeg";
 
 export default styled.div`
   margin-top: 4vh;
-  min-height: 70vh;
   .marvel {
     background-image: url(${marvelimg});
     background-position: center;
@@ -43,10 +42,26 @@ export default styled.div`
     display: flex;
     justify-content: space-evenly;
     li {
+      display: flex;
+      justify-content: center;
+      align-items: center;
       border: 5px solid black;
       width: 16vw;
       height: 100%;
       border-radius: 5%;
+      img {
+        display: none;
+      }
+    }
+    li:hover {
+      transform: scale(1.05);
+      transition-duration: 1.3s;
+      filter: sepia(40%);
+      img {
+        display: initial;
+        width: 20em;
+        height: auto;
+      }
     }
   }
 `;
