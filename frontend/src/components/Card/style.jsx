@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import img from "../../assets/imgcard/spider-man.jpg";
 
 export default styled.div`
   margin: 2vh 2vw ;

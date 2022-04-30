@@ -22,6 +22,13 @@ export default function Navbar() {
           </button>
         </li>
       </Link>
+      <Link to="/apipokemon">
+        <li>
+          <button type="button" className="button">
+            PokeApi
+          </button>
+        </li>
+      </Link>
     </SNavbar>
   );
 }
