@@ -50,24 +50,33 @@ export default styled.div`
     }
   }
   .statscontainer {
-    padding-bottom:0.5em ;
-    justify-content: space-evenly ;
+    display: flex ;
+    justify-content: space-between ;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
         Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+        li{
+          display: flex ;
+          justify-content: center;
+          align-items: center ;
+          height: 50px ;
+          width: 50px;
+          border-radius: 50% 50%;
+          text-align: center ;
+          color: white ;
+          font-size: 1.5em ;
+          font-weight: bold ;
+          font-family : Verdana, Geneva, sans-serif;
+        }
     li:first-child{
-      text-shadow:0 0 2px #1c8b00;
-      color:#1c8b00;
-      font-size: 24px;
+      background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%);
+
     }
     li:nth-child(2){
-      text-shadow:0 0 2px #3700fe;
-      color:#3700fe;
-      font-size: 24px;
+      background-image: linear-gradient(-225deg, #3D4E81 0%, #5753C9 48%, #6E7FF3 100%);
+
     }
     li:nth-child(3){
-      text-shadow:0 0 2px #fe0000;
-      color:#fe0000;
-      font-size: 24px;
+      background-image: linear-gradient(-225deg, #b24585 0%, #d41818 52%, #ff0000 100%);
     }
   
 `;

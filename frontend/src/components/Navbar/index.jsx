@@ -29,6 +29,13 @@ export default function Navbar() {
           </button>
         </li>
       </Link>
+      <Link to="/P2">
+        <li>
+          <button type="button" className="button">
+            Projet 2 WCS
+          </button>
+        </li>
+      </Link>
     </SNavbar>
   );
 }
