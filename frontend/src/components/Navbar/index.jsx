@@ -36,6 +36,13 @@ export default function Navbar() {
           </button>
         </li>
       </Link>
+      <Link to="/flipflap">
+        <li>
+          <button type="button" className="button">
+            FlipFlap Card
+          </button>
+        </li>
+      </Link>
     </SNavbar>
   );
 }
