@@ -8,6 +8,7 @@ import P2 from "@components/P2";
 import Flipflapcard from "@components/Flipflapcard";
 import Apipokemon from "@components/Apipokemon";
 import Globalstyle from "./style";
+import P2univers from "@components/P2/P2univers";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/card" element={<Gallery />} />
           <Route path="/apipokemon" element={<Apipokemon />} />
           <Route path="/P2" element={<P2 />} />
+          <Route path="/P2/:univers" element={<P2univers />} />
           <Route path="/flipflap" element={<Flipflapcard />} />
         </Routes>
       </Globalstyle>
