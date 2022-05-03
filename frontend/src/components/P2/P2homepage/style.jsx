@@ -59,7 +59,7 @@ export default styled.div`
       filter: sepia(40%);
       img {
         display: initial;
-        width: 20em;
+        width: 10em;
         height: auto;
       }
     }
