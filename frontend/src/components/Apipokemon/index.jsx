@@ -17,7 +17,7 @@ export default function Apipokemon() {
       {pokemons.map((pokemon, id) => {
         return (
           <li>
-            <p>{pokemon.name}</p>
+            <p>{pokemon.name.toUpperCase()}</p>
             <img
               src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${
                 id + 1
