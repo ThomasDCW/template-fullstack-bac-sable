@@ -7,7 +7,6 @@ export default function P2univers() {
   return (
     <SP2univers bg={dataUnivers[univers].bgheader}>
       <header>
-        <p>MENU BURGER</p>
         <img className="logo" src={dataUnivers[univers].logo} />
         <input />
       </header>

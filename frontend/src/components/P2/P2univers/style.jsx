@@ -15,22 +15,22 @@ export default styled.div`
   background-blend-mode: soft-light, screen;
   min-height: 100vh;
   header {
-    height: 6vh;
+    height: 8vh;
     padding-left: 2vw;
-    padding-right: 2vw;
+    padding-right: 8vw;
     background: ${(props) => props.bg};
     display: flex;
     justify-content: space-between;
     align-items: center;
     input {
-      height: 50%;
+      height: 40%;
     }
     .logo {
       height: 100%;
     }
   }
   .image {
-    height: 94vh;
+    height: 92vh;
     width: 100%;
   }
 `;
