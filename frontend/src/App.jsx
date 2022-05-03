@@ -6,7 +6,7 @@ import Carousel from "@components/Carousel";
 import Gallery from "@components/Gallery";
 import P2 from "@components/P2";
 import Flipflapcard from "@components/Flipflapcard";
-// import Apipokemon from "@components/Apipokemon";
+import Apipokemon from "@components/Apipokemon";
 import Globalstyle from "./style";
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
           <Route path="/" element={<Homepage />} />
           <Route path="/carousel" element={<Carousel />} />
           <Route path="/card" element={<Gallery />} />
-          {/* <Route path="/apipokemon" element={<Apipokemon />} /> */}
+          <Route path="/apipokemon" element={<Apipokemon />} />
           <Route path="/P2" element={<P2 />} />
           <Route path="/flipflap" element={<Flipflapcard />} />
         </Routes>
