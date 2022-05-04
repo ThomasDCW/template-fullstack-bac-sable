@@ -12,7 +12,7 @@ import imageothers from "@assets/P2homepage/others2P2.jpeg";
 const dataUnivers = {
   marvel: {
     logo: logomarvel,
-    bgheader: "red",
+    bgheader: "#e00032",
     image: imagemarvel,
   },
   starwars: {
@@ -27,7 +27,7 @@ const dataUnivers = {
   },
   dc: {
     logo: logodc,
-    bgheader: "#415af0",
+    bgheader: "#92aac0",
     image: imagedc,
   },
   others: {
