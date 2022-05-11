@@ -7,7 +7,8 @@
     "build": "vite build",
     "preview": "vite preview",
     "lint": "echo '----- Checking Frontend...' && prettier --debug-check . && eslint --ext .jsx . && echo '----- Done!'",
-    "fix": "prettier --write . && eslint --fix --ext .jsx ."
+    "fix": "prettier --write . && eslint --fix --ext .jsx .",
+    "clone-api": "npx json-server frontend/src/assets/api-clone.json --port 5000 --no-cors"
   },
   "dependencies": {
     "axios": "^0.26.1",
