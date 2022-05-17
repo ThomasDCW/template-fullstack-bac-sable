@@ -43,6 +43,13 @@ export default function Navbar() {
           </button>
         </li>
       </Link>
+      <Link to="/flags">
+        <li>
+          <button type="button" className="button">
+            FlagsApi
+          </button>
+        </li>
+      </Link>
     </SNavbar>
   );
 }
