@@ -19,7 +19,6 @@ export default function P2univers() {
     let value = e.target.value;
     setSearch(value);
   };
-  console.log(search);
   return (
     <SP2univers bg={dataUnivers[univers].bgheader}>
       <header>
