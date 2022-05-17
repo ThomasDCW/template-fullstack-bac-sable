@@ -31,13 +31,13 @@ const dataUnivers = {
   dc: {
     categ: "DC Comics",
     logo: logodc,
-    bgheader: "#92aac0",
+    bgheader: "#0583cd",
     image: imagedc,
   },
   others: {
     categ: "autre",
     logo: logoothers,
-    bgheader: "pink",
+    bgheader: "#4e638e",
     image: imageothers,
   },
 };

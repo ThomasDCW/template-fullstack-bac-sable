@@ -6,6 +6,7 @@ import dcimg from "../../../assets/P2homepage/dcP2.jpg";
 import othersimg from "../../../assets/P2homepage/othersP2.jpeg";
 
 export default styled.div`
+  min-height: 100vh;
   margin-top: 4vh;
   .marvel {
     background-image: url(${marvelimg});
