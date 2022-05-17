@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export default styled.div`
-  background-color: #dcd9d4;
+  background: ${(props) => props.bg};
   background-image: linear-gradient(
       to bottom,
       rgba(255, 255, 255, 0.5) 0%,
@@ -32,5 +32,11 @@ export default styled.div`
   .image {
     height: 92vh;
     width: 100%;
+  }
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
   }
 `;
