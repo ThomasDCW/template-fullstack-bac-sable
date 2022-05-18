@@ -6,7 +6,7 @@ export default function Apipokemon() {
   const [pokemons, setPokemons] = useState([]);
   useEffect(() => {
     axios
-      .get("https://pokeapi.co/api/v2/pokemon/?offset=0&limit=500")
+      .get("https://pokeapi.co/api/v2/pokemon/?offset=0&limit=250")
       .then(({ data }) => {
         setPokemons(data.results);
       });
