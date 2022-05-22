@@ -10,7 +10,7 @@ export default function CountryCard({ country }) {
         />
         <div className="infos">
           <h2>{country.translations.fra.common}</h2>
-          <h4>Cap. {country.capital}</h4>
+          <h4>{country.capital}</h4>
           <p>Pop. {country.population}</p>
         </div>
       </li>
