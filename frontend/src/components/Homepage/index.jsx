@@ -1,9 +1,10 @@
 import SHompepage from "./style";
+import BurgerNav from "@components/BurgerNav";
 
 export default function Homepage() {
   return (
     <SHompepage>
-      <h1>Template fullstack REACT</h1>
+      <BurgerNav />
     </SHompepage>
   );
 }
